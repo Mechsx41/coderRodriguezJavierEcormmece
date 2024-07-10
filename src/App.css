@@ -1,0 +1,113 @@
+#root {
+  max-width: 1285px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.Bold {
+  color: #f7ffff;
+  text-decoration: inherit;
+}
+.btnBlack {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background: #0f172a;
+  border-radius: 0.5rem;
+}
+
+.Title {
+  color: #0f172a;
+}
+.FlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 88vh;
+  overflow: auto;
+  flex-direction: row;
+}
+
+.FlexContainer div {
+  width: 50%;
+  height: 90%;
+  margin: 10px;
+}
+
+span{
+  color: #0f172a;
+}
+
+.PromoImg{
+  height: 270px;
+  justify-content: center;
+  margin: 40px 0 0 100px;
+}
+
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  position: relative;
+  margin-left: 1.5rem;
+  color: #0f172a;
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Estilos del dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  color: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20%;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+ 
+}
+.list1{
+ border-start-end-radius: 22% ;
+ border-start-start-radius: 22%;
+}
+.list3{
+  border-end-end-radius: 22%;
+  border-end-start-radius:22% ;
+}
+
+/* Mostrar el dropdown cuando se pasa el mouse sobre el item */
+.navbar-item:hover .dropdown-menu {
+  display: block;
+}
